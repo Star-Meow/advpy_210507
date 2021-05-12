@@ -10,16 +10,17 @@ if __name__ == "__main__":
         datalist = []
         for i in range(len(data)):
             datalist.append(i)
-        
+
 
 
 
 random.seed(seedcode)
 random.shuffle(data)
+random.seed(seedcode)
 random.shuffle(datalist)
 
 
-print("加密前:")
+print("還原後:")
 print(datalist)
 
 print("加密後:")
